@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header-1 {
+    width: 100%;
+    height: 75px;
+    border-bottom: 0.1px solid;
+    top: 10;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+}
+header #cont1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+     width: 10%;
+     height: 35px;
+     padding: 20px 0px 0px 25px;
+}
+#logo img{
+     height: 25px;
+}
+#cont1 #link{
+    width: 45%;
+}
+ul li{
+    list-style: none;
+    margin-top: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+   color: rgb(0, 0, 0, 0.85);
+    padding: 10px 15px;
+}
+#cont1 #searchbox{
+    width: 25%;
+    height: 50px;
+    padding: 10px 0px 0px 25px;
+    /* background-color: aqua; */
+}
+#cont1 #searchbox .search{
+    width: 300px;
+    height: 35px;
+    border-radius: 40px;
+    border-color: aliceblue;
+
+}
+#input{
+    padding: 10px 0px ;
+    margin: 10px 0px;
+}
+#input a{
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.85);
+    padding: 5px 10px;
+}
+.singup{
+    width: 10%;
+    text-decoration: none;
+    border: 1px solid rgb(42, 176, 42);
+    box-sizing: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    color: whitesmoke;
+    background-color: rgb(42, 176, 42);
+}
+#cont2{
+    padding: 10px 10px;
+} 
+.header-2{
+    position: sticky;
+    top: 100;
+}
+ 
+/* ----------How------- */
+
+ #section_cont1{
+    width: 100% ;
+    height: 550px;  
+    display: flex;
+}
+#How{
+    width: 50%;
+    height: 400px;
+    padding: 50px 80px 10px 150px ;
+}
+#How h1{
+    font-size: 80px;
+    color: rgb(42, 176, 42);
+    margin: 10px 10px;
+}
+#How p{
+    font-size: 30px;
+    color: rgba(84, 82, 82, 0.959);
+    margin: 10px 10px ;
+    padding: 10px;
+}
+#get{
+    width: 15%;
+    text-decoration: none;
+    border: 1px solid rgb(42, 176, 42);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: rgb(42, 176, 42);
+    color: whitesmoke;
+}
+#learn{
+    width: 10%;
+    text-decoration: none;
+    border: 1px solid rgb(42, 176, 42);
+    box-sizing: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    color: rgb(42, 176, 42);
+}
+#section_img{
+    width: 50%;
+    height: 500px;
+    /* background-color: chocolate; */
+    padding: 10px 10px 10px 50px;
+}
+.img1{
+    width: 500px;
+    height: 500px;
+} */
+ 
+/* -----------trusted-------- */
+ .cont-3{
+    width: 50%;
+    height: 150px;
+}
+#Trusted-by{
+    font-size: 20px;
+    color: rgba(162, 158, 158, 0.959);
+    padding-left: 200px;
+}
+#microsoft{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+#M{
+    padding-right: 20px;
+    width: 10%;
+}
+#a{
+    padding-right: 20px;
+    width: 8%;
+} */
+/* -----------Browse talent by category -------- */
+#Browser{
+    width: 100%;
+    height: 50px;
+    /* background-color: brown; */
+}
+#Browser h1{
+    font-size: 40px;
+    padding: 60px 50px 10px 170px;
+    color: rgb(17, 16, 16);
+}
+#Browser p{
+    padding: 10px 50px 10px 170px;
+    color: rgba(162, 158, 158, 0.959);
+}
+#Browser span{
+    color: rgb(42, 176, 42);
+}
+/* ------cont-5------ */
+.cont-5{
+    width: 100%;
+    height: 350Px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+      
+}
+.item{
+    background-color: rgb(238, 248, 238);
+    width: 90%;
+    height: 130px;
+    margin-left: 170px;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+.item:hover{
+    transform: scale(1.1);
+    color: rgb(204, 202, 202);
+}
+.item-Name{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.cont-5 .item img{
+    width: 5%;
+    margin-left: 20px;
+    margin-top: 10px; 
+}
+.item span{
+    color: rgb(127, 125, 125);;
+}
+/* cont-6 */
+.cont-6{
+    width: 80%;
+    height: 500px;
+    margin-left: 11%;
+    margin-top: 50px;
+    display: flex;
+}
+.Enterprise{
+    width: 60%;
+    height: 500px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #13544e;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.Enterprise p{
+    font-size: 25px;
+    color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+}
+.Enterprise h1{
+    font-size: 55px;
+    color: rgb(245, 245, 245);
+}
+.Enterprise h2{
+    font-size: 55px;
+    color: rgb(145, 230, 179);
+}
+.Enterprise h3{
+    font-size: 15px;
+    color: rgb(245, 245, 245);
+    margin-top: 20px;
+}
+.Enterprise img{
+    margin-top: 10px;
+}
+.Enterprise span{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(245, 245, 245);
+}
+.Enterprise a{
+    text-decoration: none;
+    border: 1px solid rgb(35, 87, 56);
+    padding: 15px 35px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    color: rgb(37, 169, 90);
+
+}
+.cont-img{
+    width: 40%;
+    height: 500px;
+}
+.cont-img img{
+    width: 100%;
+    height: 530px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+/* For client */
+
+.cont-7{
+    width: 80%;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 170px;
+    background-image: url(./images/asset\ 22.webp);
+    border-radius: 10px;
+}
+.cont-7 .img{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
